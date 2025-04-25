@@ -1,0 +1,90 @@
+/* Estilo geral do conteúdo da página Sobre Nós */
+main {
+  font-family: "Georgia", serif;
+  background-color: #fefaf7;
+  color: #3a2e2b;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+/* Estilização do container central */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Título principal */
+.container > h1:first-of-type {
+  font-size: 2.5rem;
+  color: #5c2c21;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Subtítulo slogan */
+.container > h2 {
+  font-size: 1.5rem;
+  color: #754a3c;
+  text-align: center;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+/* Imagem hero (banner topo) */
+.container > img:first-of-type {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 30px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Título 'Quem somos' e 'Nossa ideologia' */
+.container > h1:nth-of-type(2),
+.container > h1:nth-of-type(3) {
+  font-size: 2rem;
+  color: #5c2c21;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Imagem ao lado do texto */
+.container > img:nth-of-type(2) {
+  width: auto;
+  max-width: 35%;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Parágrafos principais */
+.container > p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+/* Bloco de valores (Qualidade, Tradição, Atendimento) */
+.valores {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.valores div h3 {
+  background-color: #fef0e7;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  color: #754a3c;
+  text-align: center;
+}
