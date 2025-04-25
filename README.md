@@ -18,10 +18,10 @@ Este site foi desenvolvido com base no caso fictício da Vinheria Agnello, uma e
 
 - Matheus Xavier
 - Mateus Macedo
-- Gustavo Cavalcante
+- Gustavo Cavalcanti
 - Tomás
 - Felipe Riofrio
 
 ## 🌐 GitHub Pages
 
-🔗 [Link para o site publicado](https://mateusmsouza05.github.io/CP-FrontEnd-VInheriaAgenllo/)
+🔗 [Link do site publicado](https://gustavo7592.github.io/Site-Vinheria-Agnello.github.io/index.html)
