@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamento Online - Vinheria Agnello</title>
+    <meta name="description" content="Página da Vinheria Agnello" />
+    <meta name="keywords" content="vinhos, vinheria, vinho brasileiro" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/visitas.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img
+            src="../assets/imgs/logo.png"
+            alt="Logo Vinheria Agnello"
+            class="logo-img"
+          />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="sobrenos.html">Sobre Nós</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="visita.html">Agende sua visita</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="local">
+        <section class="cartao">
+          <h1>Agendamento</h1>
+          <p>Preencha os campos abaixo para marcar uma visita</p>
+          <form action="">
+            <h4>Selecione uma data e um horário:</h4>
+            <div class="linha-data-hora">
+              <input type="date" id="data" name="data" required />
+              <input type="time" id="tempo" name="tempo" required />
+            </div>
+
+            <h4>Informações para contato:</h4>
+            <input
+              type="text"
+              name="nome_completo"
+              placeholder="Nome Completo"
+              required
+            />
+            <input type="email" name="email" placeholder="E-mail" required />
+            <input type="tel" name="telefone" placeholder="Telefone" required />
+
+            <h4>Preferência de contato:</h4>
+            <div class="radio-opcoes">
+              <label
+                ><input type="radio" name="contato" value="WhatsApp" required />
+                WhatsApp</label
+              >
+              <label
+                ><input type="radio" name="contato" value="email" />
+                E-mail</label
+              >
+            </div>
+
+            <h4>Observações (opcional):</h4>
+            <textarea
+              name="obs"
+              placeholder="Escreva aqui se houver alguma necessidade específica"
+            ></textarea>
+
+            <p>
+              Você receberá uma mensagem de confirmação assim que o agendamento
+              for concluído.
+            </p>
+
+            <button type="submit" class="botao">Agendar sua visita</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>© Vinheria Agnello - Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>
